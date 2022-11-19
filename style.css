@@ -1,0 +1,186 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+header .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 100vw;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+header {
+    height: 14vh;
+    background-color: #fff;
+}
+.logo {
+    height: 55px;
+    position: relative;
+    
+}
+
+.left {
+    display: flex;
+    height: 14vh;
+    justify-content: left;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    height: 14vh;
+    justify-content: right;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav {
+    margin-left: 40px;
+}
+
+.navA {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.sign-in {
+    color: rgba(0, 0, 0, 0.7);
+    border: black 1px solid;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.join {
+    
+    color: white;
+    background-color: black;
+    border: black 1px solid;
+    border-radius: 30px;
+    margin-right: 11vh;
+    text-decoration: none;
+}
+
+.sign-in, .join {
+    padding: 0.5em 1em;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.find {
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 40px;
+    text-decoration: none;
+    position: relative;
+    top: -5px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.find img {
+    width: 25px;
+    position: relative;
+    top: 10px;
+}
+
+/* pre banner */
+
+.liner {
+    background-color: #1e3932;
+    width: 100vw;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 2.2vw;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    
+}
+
+/* main */
+
+main {
+    background-color: #d4e9e2;
+    margin-top: 0;
+
+}
+
+.banner {
+    background-image: url(images/star.png);
+    padding-top: 36vh;
+    background-position: 52vw;
+    overflow: hidden;
+    background-size: 1000px;
+    width: 100vw;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.banner p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bannerJoin {
+    color: black;
+}
+
+.bannerA{
+    background-color: #007641;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    color: white;
+    margin-top: 40px;
+    padding: 10px 8px;
+    border-radius: 40px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Getting started */
+
+
+.started {
+    padding-top: 14vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background-color: white;
+}
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.card {
+    width: 20%;
+}
